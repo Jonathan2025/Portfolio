@@ -1,10 +1,10 @@
 import React from 'react'
-import {HiArrowNarrowRight} from 'react-icons/fa'
+import {HiArrowNarrowRight} from 'react-icons/hi'
 
 
 const Home = () => {
   return (
-    <div>
+    <div className="w-full h-screen bg-[#72a8d5]">
 
     </div>
   )
