@@ -11,10 +11,10 @@ import starwars from "../assets/work/StarWars.png"
 
 const Work = () => {
   return (
-    <div name='work' className='w-full h-auto md:h-screen text-gray-300 bg-[#6082B6]'>
+    <div name='work' className='w-full h-auto md:h-screen text-gray-300 bg-[#0C2340]'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-auto'> 
             <div className='pb-8'> 
-                <p className='text-4xl font-bold inline border-b-4 text-gray-300  border-blue-600'>Projects</p>
+                <p className='text-4xl font-bold inline border-b-4 text-gray-300  border-blue-500'>Projects</p>
                 <p className ='py-6'>See some of my recent projects</p>
             </div>
             
@@ -24,7 +24,7 @@ const Work = () => {
                 
                 
                 {/* card item */}
-                <div style={{backgroundImage: `url(${jxfunds})`}} className='shadow-lg shadow-[black] group container rounded-md flex justify-center items-center mx-auto content-div'> 
+                <div style={{backgroundImage: `url(${jxfunds})`}} className='shadow-lg shadow-[#6082B6] group container rounded-md flex justify-center items-center mx-auto content-div'> 
                     
                     {/* hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'> 
@@ -44,7 +44,7 @@ const Work = () => {
                     </div>
                 
 
-                <div style={{backgroundImage: `url(${tillow})`}} className='shadow-lg shadow-[black] group container rounded-md flex justify-center items-center mx-auto content-div'> 
+                <div style={{backgroundImage: `url(${tillow})`}} className='shadow-lg shadow-[#6082B6] group container rounded-md flex justify-center items-center mx-auto content-div'> 
                     {/* hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'> 
                         <span className='text-2xl fond-bold text-white tracking-wider'>
@@ -62,7 +62,7 @@ const Work = () => {
                         </div>
                     </div>
 
-                <div style={{backgroundImage: `url(${Newegg})`}} className='shadow-lg shadow-[black] group container rounded-md flex justify-center items-center mx-auto content-div'> 
+                <div style={{backgroundImage: `url(${Newegg})`}} className='shadow-lg shadow-[#6082B6] group container rounded-md flex justify-center items-center mx-auto content-div'> 
                     {/* hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'> 
                         <span className='text-2xl fond-bold text-white tracking-wider'>
@@ -76,7 +76,7 @@ const Work = () => {
                         </div>
                     </div>
 
-                <div style={{backgroundImage: `url(${earlyAlert})`}} className='shadow-lg shadow-[black] group container rounded-md flex justify-center items-center mx-auto content-div'> 
+                <div style={{backgroundImage: `url(${earlyAlert})`}} className='shadow-lg shadow-[#6082B6] group container rounded-md flex justify-center items-center mx-auto content-div'> 
                     {/* hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'> 
                         <span className='text-2xl fond-bold text-white tracking-wider'>
@@ -90,7 +90,7 @@ const Work = () => {
                         </div>
                     </div>
 
-                <div style={{backgroundImage: `url(${starwars})`}} className='shadow-lg shadow-[black] group container rounded-md flex justify-center items-center mx-auto content-div'> 
+                <div style={{backgroundImage: `url(${starwars})`}} className='shadow-lg shadow-[#6082B6] group container rounded-md flex justify-center items-center mx-auto content-div'> 
                     {/* hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'> 
                         <span className='text-2xl fond-bold text-white tracking-wider'>

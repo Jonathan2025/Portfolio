@@ -21,11 +21,11 @@ import Tableau from '../assets/tableau.webp'
 
 const Skills = () => {
   return (
-    <div name="skills" className='w-full h-auto bg-[#6082B6]  text-gray-300'>
+    <div name="skills" className='w-full h-auto bg-[#0C2340]  text-gray-300'>
       {/* container of skills */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div>
-          <p className='text-4xl font-bold inline border-b-4 border-blue-600'>Technical Skills</p>
+          <p className='text-4xl font-bold inline border-b-4 border-blue-500'>Technical Skills</p>
           <p className='py-4'>These are the technologies that I use</p>
         </div>
      

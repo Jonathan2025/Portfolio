@@ -4,7 +4,7 @@ import {HiArrowNarrowRight} from 'react-icons/hi'
 
 const Home = () => {
   return (
-    <div name="home" className="w-full h-screen bg-[#6082B6]">
+    <div name="home" className="w-full h-screen bg-[#0C2340]">
 
         {/* container for all the elements in the home page, note "px" stands for padding*/}
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
@@ -13,7 +13,7 @@ const Home = () => {
             <h1 className="text-4xl sm:text-7xl font-bold text-[white]">Jonathan Liang</h1>
             <h2 className="text-4xl sm:text-7xl font-bold text-[#a0aec0]">Full Stack Software Engineer</h2>
             {/* on larger screens this is so that the p tag doesnt take the full page */}
-            <p className ="text-[#a0aec0] py-4 max-w-[700px]">I am a full stack software engineer that specializes and loves to 
+            <p className ="text-[#a0aec0] py-4 max-w-[700px]">I am a former consultant turned full stack software engineer that loves to 
               build full stack applications that empower users financially and physically.</p>
 
             <div>

@@ -8,11 +8,11 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <Home />
-      <About />
-      <Skills />
-      <Work />
-      <Experience />
+      <Home id="home" />
+      <About id="about" />
+      <Skills id="skills" />
+      <Work id="work" />
+      <Experience id="experience" />
     </div>
   );
 }
