@@ -17,7 +17,7 @@ const Home = () => {
               build full stack applications that empower users financially and physically.</p>
 
             <div>
-                <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-orange-400  hover:border-orange-400'>View Work 
+                <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-blue-500  hover:border-blue-500'>View Work 
                 <span className='group-hover:rotate-90 duration-300'>
                   <HiArrowNarrowRight className='ml-3'/>
                 </span>
