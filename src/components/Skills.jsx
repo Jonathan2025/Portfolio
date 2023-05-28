@@ -17,11 +17,11 @@ import PostGreSQL from '../assets/postgre.png'
 import PowerBI from '../assets/powerbi.jpeg'
 import Alteryx from '../assets/alteryx.png'
 import Tableau from '../assets/tableau.webp'
-
+//bg-[#36454F] 
 
 const Skills = () => {
   return (
-    <div name="skills" className='w-full h-auto bg-[#36454F]  text-gray-300'>
+    <div name="skills" className='w-full h-auto bg-[#6082B6]  text-gray-300'>
       {/* container of skills */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div>
