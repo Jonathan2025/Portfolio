@@ -15,10 +15,12 @@ const About = () => {
                 </div>
                 {/* When the screen gets smaller then the text will become one column */}
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-                    <div className='sm:text-right text-4xl font-bold'> 
-                        <p> Hey, I'm Jonathan</p>
+                    <div className='sm:text-right'> 
+                        <img src='https://ca.slack-edge.com/T0351JZQ0-U04AP6PSGK1-01c279675f60-512'/>
                     </div>
                 <div>
+                    <p className='text-4xl font-bold'>Hey! I'm Jonathan</p>
+                    <br></br>
                     <p> 
                         As a former Technology Risk Consultant at EY, I enjoyed the services and expertise I was able deliver to our clients.
                         I am a continuous learner who has always been fascinated with technology and coding. My love for software engineering grew and I built and continue to build full stack applications that empower others financially or physically.
