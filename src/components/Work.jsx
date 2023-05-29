@@ -12,6 +12,9 @@ import starwars from "../assets/work/StarWars.png"
 const Work = () => {
   return (
     <div name='work' className='w-full h-auto md:h-screen text-gray-300 bg-[#0C2340]'>
+        <br></br>
+        <br></br>
+        <br></br>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-auto'> 
             <div className='pb-8'> 
                 <p className='text-4xl font-bold inline border-b-4 text-gray-300  border-blue-500'>Projects</p>
