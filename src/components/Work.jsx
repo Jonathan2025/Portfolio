@@ -35,10 +35,10 @@ const Work = () => {
                             JX Funds Investing App
                         </span>
                             <div className='pt-8 text-center'> 
-                                <a href="https://jxfunds.netlify.app/">
+                                <a href="https://jxfunds.netlify.app/" target="_blank">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>App</button>
                                 </a>
-                                <a href="https://github.com/Jonathan2025/NewProject3Frontend">
+                                <a href="https://github.com/Jonathan2025/NewProject3Frontend" target="_blank">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                                 
@@ -54,10 +54,10 @@ const Work = () => {
                             Tillow! Real Estate App
                         </span>
                             <div className='pt-8 text-center'> 
-                                <a href="/">
+                                {/* <a href="/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>App</button>
-                                </a>
-                                <a href="https://github.com/Jonathan2025/RealEstateApp">
+                                </a> */}
+                                <a href="https://github.com/Jonathan2025/RealEstateApp" target="_blank">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                                 
@@ -72,7 +72,7 @@ const Work = () => {
                             Video Game Python Webcrawler
                         </span>
                             <div className='pt-8 text-center'> 
-                                <a href="/">
+                                <a href="https://docs.google.com/presentation/d/1pLeC2WbqrkuZYQ_AsRJPdZeOMOiDsNzi/edit?usp=sharing&ouid=101182582783772589811&rtpof=true&sd=true" target="_blank">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Presentation</button>
                                 </a>
                             </div>
@@ -86,7 +86,7 @@ const Work = () => {
                             UMass Boston Early Alert Analysis 
                         </span>
                             <div className='pt-8 text-center'> 
-                                <a href="/">
+                                <a href="https://docs.google.com/presentation/d/1w5MM_960-KMUW7zobMixEJyMLxpTDtt1/edit?usp=sharing&ouid=101182582783772589811&rtpof=true&sd=true" target="_blank">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Presentation</button>
                                 </a>
                             </div>
@@ -100,10 +100,10 @@ const Work = () => {
                             StarWars Battleship Game
                         </span>
                             <div className='pt-8 text-center'> 
-                                <a href="https://jonathan2025.github.io/">
+                                <a href="https://jonathan2025.github.io/" target="_blank">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>App</button>
                                 </a>
-                                <a href="https://github.com/Jonathan2025/project1_StarWarsBattleship">
+                                <a href="https://github.com/Jonathan2025/project1_StarWarsBattleship" target="_blank">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                                 

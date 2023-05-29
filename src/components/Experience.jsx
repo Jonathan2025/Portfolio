@@ -9,6 +9,7 @@ const Experience = () => {
   const [isHidden, setIsHidden] = useState(true)
   const [isHidden2, setIsHidden2] = useState(true)
   const [isHidden3, setIsHidden3] = useState(true)
+  const [isHidden4, setIsHidden4] = useState(true)
 
   const toggleDescription = () => {
     setIsHidden(!isHidden);
@@ -18,6 +19,9 @@ const Experience = () => {
   }
   const toggleDescription3 = () => {
     setIsHidden3(!isHidden3);
+  }
+  const toggleDescription4 = () => {
+    setIsHidden4(!isHidden4);
   }
 
   return (
@@ -70,7 +74,22 @@ const Experience = () => {
                 <div className="flex items-center">
                   <img src='https://www.pngkit.com/png/detail/767-7675046_martial-arts-clipart-karate-kick-martial-arts-kick.png' className="w-20 h-20 mr-4" />
                   <span>
-                    I pioneered efforts with Grandmaster Seo to improve the school's website, advertisements, and outreach which increased revenues 46% from 2021 to 2022. Additionally, I am working on a full stack application that will improve student's techniques and form, which is anticipated for release in late June.
+                    I pioneered efforts with Grandmaster Gyo Sun Seo to improve the school's website, advertisements, and outreach which increased revenues 46% from 2021 to 2022. Additionally, I am working on a full stack application that will improve student's techniques and form, which is anticipated for release in late June.
+                  </span>
+                </div>
+              </div>
+            </div>
+
+          <div className='accordion-item cursor-pointer ' onClick={toggleDescription4}> 
+          <div className={`rounded-lg p-4 flex justify-between ${isHidden4 ? 'bg-[#005A9C]' : 'bg-[#0076CE]'}`}>
+              <span className="text-x1">Presenter for Technical Workshops [2020-2022]</span>
+                  {isHidden4 ? <FaPlus size={20}/> : <FaMinus size={20} />}
+              </div>  
+              <div className={`rounded-lg p-4 transition-all duration-1000 ease-in-out text-black bg-[#E5E4E2] ${isHidden4 ? 'opacity-0 max-h-0' : 'opacity-100 max-h-[1000px] mb-3'}`} style={{ overflow: 'hidden' }}>
+                <div className="flex items-center">
+                  <img src='https://assets.website-files.com/5b315ecc278ab93f80e38713/5ff764c7fc5ef345e4dd8805_UMASS%20Logo.png' className="w-20 h-20 mr-4" />
+                  <span>
+                    I presented over 100 workshops for the College of Management as Presenter of BGS Workshops, and I absolutely loved the freedom I had to pioneer new workshops for students. After mastering new technologies, I decided to create workshops on Excel, Power BI and Alteryx which has given more than 200 students exposure to powerful applications and the ability to succeed in their academic careers.
                   </span>
                 </div>
               </div>

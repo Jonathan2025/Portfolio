@@ -27,11 +27,9 @@ const About = () => {
                     <p className='text-4xl font-bold'>Hey! I'm Jonathan</p>
                     <br></br>
                     <p> 
-                        As a former Technology Risk Consultant at EY, I enjoyed the services and expertise I was able deliver to our clients.
-                        I am a continuous learner who has always been fascinated with technology and coding. My love for software engineering grew and I built and continue to build full stack applications that empower others financially or physically.
-                        My apps and projects have proven to provide overwhelmingly positive results, for instance, my JX-Funds App helped nearly 10 users get aquinted with investing concepts and start investing for retirement.
-                        In my free time, I find joy in teaching Taekwondo but also continuously improving my techniques.
-                        I am proud of the great results that I am able to deliver for others, and I am confident I will make a great addition to your team! See below for my most recent projects!
+                    As a former Technology Risk Consultant at EY, I delivered exceptional services and expertise to clients. I'm a passionate lifelong learner with a strong fascination for technology and coding. My software engineering journey has led me to develop impactful full stack applications that empower others financially or physically.
+                    My projects have achieved significant positive outcomes. For example, my JX-Funds App helped nearly 10 users familiarize themselves with investing concepts and begin investing for retirement. These projects also reflect my enthusiasm for sharing knowledge. During my time at UMass Boston, I led technical workshops, including Excel, Power BI, and Alteryx, as the presenter for the College of Management workshops.
+                    Outside of work, I find joy in teaching Taekwondo and continuously enhancing my techniques. I take pride in delivering exceptional results and I'm confident that I would be a valuable addition to your team! Please explore my recent projects below.
                     </p>
                 </div>
 
