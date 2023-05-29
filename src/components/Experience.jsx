@@ -25,7 +25,21 @@ const Experience = () => {
   }
 
   return (
-    <div name="experience" className='w-full h-screen bg-[#0C2340]  text-gray-300'>
+    <div name="experience" className='w-full h-auto bg-[#0C2340]  text-gray-300'>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
     {/* container For experience */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-screen'>
         <div>
