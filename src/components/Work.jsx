@@ -4,7 +4,7 @@ import tillow from "../assets/work/Tillow.png"
 import Newegg from "../assets/work/Newegg.png"
 import earlyAlert from "../assets/work/EarlyAlert.png"
 import starwars from "../assets/work/StarWars.png"
-
+import kickflix from "../assets/work/kickflix.png"
 
 
 
@@ -26,6 +26,26 @@ const Work = () => {
             <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-4'> 
                 
                 
+                {/* card item */}
+                <div style={{backgroundImage: `url(${kickflix})`}} className='shadow-lg shadow-[#6082B6] group container rounded-md flex justify-center items-center mx-auto content-div'> 
+                    
+                    {/* hover effects */}
+                    <div className='opacity-0 group-hover:opacity-100'> 
+                        <span className='text-2xl fond-bold text-white tracking-wider'>
+                            KickFlix - Martial Arts App
+                        </span>
+                            <div className='pt-8 text-center'> 
+                                <a href="https://kickflix.netlify.app/api/home" target="_blank">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>App</button>
+                                </a>
+                                <a href="https://github.com/Jonathan2025/FrontendCapstone" target="_blank">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+
                 {/* card item */}
                 <div style={{backgroundImage: `url(${jxfunds})`}} className='shadow-lg shadow-[#6082B6] group container rounded-md flex justify-center items-center mx-auto content-div'> 
                     

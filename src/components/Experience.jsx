@@ -51,7 +51,7 @@ const Experience = () => {
       
           <div className='accordion-item cursor-pointer ' onClick={toggleDescription}> 
           <div className={`rounded-lg p-4 flex justify-between ${isHidden ? 'bg-[#005A9C]' : 'bg-[#0076CE]'}`}>
-            <span className="text-x1">Software Engineer at General Assembly [2022-Present]</span>
+            <span className="text-x1">Software Engineer at General Assembly [2022-2023]</span>
                   {isHidden ? <FaPlus size={20}/> : <FaMinus size={20} />}
               </div>  
               <div className={`rounded-lg p-4 transition-all duration-1000 ease-in-out text-black bg-[#E5E4E2] ${isHidden ? 'opacity-0 max-h-0' : 'opacity-100 max-h-[1000px] mb-3'}`} style={{ overflow: 'hidden' }}>
