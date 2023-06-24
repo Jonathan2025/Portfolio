@@ -11,11 +11,11 @@ import kickflix from "../assets/work/kickflix.png"
 
 const Work = () => {
   return (
-    <div name='work' className='w-full h-auto md:h-screen text-gray-300 bg-[#0C2340]'>
+    <div name='work' className='w-full h-auto text-gray-300 bg-[#0C2340]'>
         <br></br>
         <br></br>
         <br></br>
-        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-auto'> 
+        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-auto place-items-center'> 
             <div className='pb-8'> 
                 <p className='text-4xl font-bold inline border-b-4 text-gray-300  border-blue-500'>Projects</p>
                 <p className ='py-6'>See some of my recent projects</p>
@@ -23,12 +23,14 @@ const Work = () => {
             
         
             {/* card container */}
-            <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-4'> 
+            <div className='grid grid-cols-1 gap-4 max-w-[700px] '> 
                 
                 
                 {/* card item */}
-                <div style={{backgroundImage: `url(${kickflix})`}} className='shadow-lg shadow-[#6082B6] group container rounded-md flex justify-center items-center mx-auto content-div'> 
+                <div style={{backgroundImage: `url(${kickflix})`, height: '400px'}} className='shadow-lg shadow-[#6082B6] group container rounded-md flex justify-center items-center mx-auto content-div'> 
                     
+        
+      
                     {/* hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'> 
                         <span className='text-2xl fond-bold text-white tracking-wider'>
@@ -41,7 +43,19 @@ const Work = () => {
                                 <a href="https://github.com/Jonathan2025/FrontendCapstone" target="_blank">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
-                                
+                                <div class="px-5 pt-2 pb-2">
+                                    <span class="inline-block bg-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">JavaScript</span>
+                                    <span class="inline-block bg-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">ReactJS</span>
+                                    <span class="inline-block bg-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Microsoft Azure</span>
+                                    <span class="inline-block bg-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Django</span>
+                                    <span class="inline-block bg-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Python </span>
+                                    <span class="inline-block bg-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">JWT Web Tokens Authentication </span>
+                                    <span class="inline-block bg-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Open Layers Map API</span>
+                                    <span class="inline-block bg-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">PostgreSQL</span>
+                                    <span class="inline-block bg-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">SQL</span>
+                                    <span class="inline-block bg-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">HTML</span>
+                                    <span class="inline-block bg-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">CSS</span>
+                                 </div>
                             </div>
                         </div>
                     </div>
@@ -61,7 +75,18 @@ const Work = () => {
                                 <a href="https://github.com/Jonathan2025/NewProject3Frontend" target="_blank">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
-                                
+                                <div class="px-5 pt-2 pb-2">
+                                    <span class="inline-block bg-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">JavaScript</span>
+                                    <span class="inline-block bg-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">ReactJS</span>
+                                    <span class="inline-block bg-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Microsoft Azure</span>
+                                    <span class="inline-block bg-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">MongoDB</span>
+                                    <span class="inline-block bg-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Alpha Vantage Finance API</span>
+                                    <span class="inline-block bg-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Auth0 Authentication</span>
+                                    <span class="inline-block bg-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Express</span>
+                                    <span class="inline-block bg-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Node JS</span>
+                                    <span class="inline-block bg-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">HTML</span>
+                                    <span class="inline-block bg-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">CSS</span>
+                                 </div>
                             </div>
                         </div>
                     </div>
