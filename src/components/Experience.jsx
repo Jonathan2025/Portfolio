@@ -28,6 +28,9 @@ const Experience = () => {
     <div name="experience" className='w-full h-auto bg-[#0C2340]  text-gray-300'>
       <br></br>
       <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
 
   
     {/* container For experience */}
@@ -78,7 +81,7 @@ const Experience = () => {
                 <div className="flex items-center">
                   <img src='https://www.pngkit.com/png/detail/767-7675046_martial-arts-clipart-karate-kick-martial-arts-kick.png' className="w-20 h-20 mr-4" />
                   <span>
-                    I pioneered efforts with Grandmaster Gyo Sun Seo to improve the school's website, advertisements, and outreach which increased revenues 46% from 2021 to 2022. Additionally, I am working on a full stack application that will improve student's techniques and form, which is anticipated for release in late June.
+                    I pioneered efforts with Grandmaster Gyo Sun Seo to improve the school's website, advertisements, and outreach which increased revenues 46% from 2021 to 2022. Additionally, my new KickFlix app has given students the opportunities to perfect their martial arts techniques and help them prepare for their belt examinations.
                   </span>
                 </div>
               </div>
