@@ -23,10 +23,6 @@ const Work = () => {
             </div>
 
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-auto place-items-center'> 
-          
-            
-         
-        
             {/* card container */}
             <div className='grid grid-cols-1 gap-4 max-w-[700px] '> 
                 
