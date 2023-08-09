@@ -13,9 +13,9 @@ const NavBar = () => {
 
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0C2340] text-white">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0284c7] text-white">
         <div>
-            <img src ={Logo} alt="Logo Image" style={{width: '50px'}} />
+            
         </div>
         
    
@@ -56,7 +56,7 @@ const NavBar = () => {
         </div>
 
         {/* mobile menu, when the nav is not false, then it will show */}
-        <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0C2340] flex flex-col justify-center items-center'}> 
+        <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0284c7] flex flex-col justify-center items-center'}> 
                 <li className='py-6 text-4xl'>
                     <Link onClick={handleClick} to="home" smooth={true} duration={500}>
                         Home
@@ -90,7 +90,7 @@ const NavBar = () => {
         <div className="hidden lg:flex fixed flex-col top-[35%] left-0"> 
             <ul>
                 {/* this creates a pop up of the linked in when you hover */}
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-blue-500'> 
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-blue-600'> 
                     <a className='flex justify-between items-center w-full text-gray-300' 
                     href="https://www.linkedin.com/in/jonathan-liang7/" target="_blank">
                         LinkedIn <FaLinkedinIn size={30} />
@@ -110,7 +110,7 @@ const NavBar = () => {
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-[#FFBF00]'> 
                     <a className='flex justify-between items-center w-full text-white' 
-                    href="https://drive.google.com/file/d/1Rri3_vLZ6YBPYo79npWiLXY1_RhebvfT/view?usp=sharing" target="_blank">
+                    href="https://drive.google.com/file/d/1B6-h29T25MhD5DwNJxtJ0S1FyMWVfH_R/view?usp=drive_link" target="_blank">
                         Resume <BsFillPersonLinesFill size={30} />
                     </a>
                 </li>

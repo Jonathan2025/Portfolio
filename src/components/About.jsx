@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div name="about" className='w-full h-auto bg-[#0C2340] text-gray-300'>
+    <div name="about" className='w-full h-auto bg-[#0284c7] text-gray-300'>
         <br></br>
         <br></br>
         <br></br>
@@ -12,7 +12,7 @@ const About = () => {
             <div className='max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8'>
                 {/* when the screen gets small, the text will jump to the right */}
                 <div className='sm:text-right pb-8 pl-4'>
-                    <p className='text-4xl font-bold inline border-b-4 border-blue-500'>
+                    <p className='text-4xl font-bold inline border-b-4 border-indigo-400'>
                         About
                     </p>
                 </div>
